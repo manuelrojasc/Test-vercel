@@ -11,7 +11,7 @@ export const User =() =>{
      const handleSubmit=(e) =>{
          e.preventDefault()
            
-       const res= fetch('http://157.55.202.174:7000/registrar/alumno',{
+       const res= fetch('https://www.integrationapi.tk/registrar/alumno',{
             method:'POST',
             headers:{'content-type':'application/json'},
             body:JSON.stringify({

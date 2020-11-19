@@ -7,7 +7,7 @@ export const About =() =>{
     
     useEffect(()=>{
         const getData = async () => {
-            const res =await fetch('http://157.55.202.174:7000/listar/alumnos')
+            const res =await fetch('https://www.integrationapi.tk/listar/alumnos')
             const data1 = await res.json()
             
             setdata(data1)
